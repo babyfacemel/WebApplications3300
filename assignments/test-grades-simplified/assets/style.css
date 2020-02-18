@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 80vw;
+}
+
+.box {
+    width: 45%;
+    padding: 16px 24px;
+    border: 2px solid #000000a1;
+    box-shadow: 3px 3px 5px #757070be;
+    margin: 50px auto;
+}
+
+h3 {
+    text-align: center;
+}

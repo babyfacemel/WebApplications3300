@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The MPG Calculator</title>
+        <script>
+        var entry;
+        var mpg;
+        var total = 0;
+
+        entry = prompt("Enter Miles Driven");
+        entry = parseInt(entry);
+        var miles = entry;
+        total = total + miles;
+
+        entry = prompt("Enter Gallons Used");
+        entry = parseInt(entry);
+        var gallons = entry;
+        total = total + gallons;
+
+        mpg = parseInt(miles/gallons);
+        </script>
+        <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    </head>
+    <body>
+        <div class="box">
+        <script>
+            document.write("<h1>MPG Calculator</h1>");
+            document.write("Enter Miles Driven = " + miles + "<br>" + "Gallons of gas = " + gallons + "<br><br>" + "Miles per gallon = " + mpg + "<br><br>");
+        </script>
+        <p>Thanks for using the MPG Calculator.</p>
+    </div>
+    </body>
+</html>

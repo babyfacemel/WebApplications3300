@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Html Doc 1</title>
+        <style type = "text/css">
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80vw;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            margin: auto;
+        }
+        a.nodec {
+            text-decoration: none;
+        }
+        a:hover {
+            background: #000000;
+            color: #ffffff;
+        }
+        li em {
+            font-weight: 700;
+        }
+        h1 {
+            background: #c1c1c1;
+            width: 50%;
+            text-align: center;
+            padding: 8px 16px;
+        }
+        em {
+            text-decoration: underline;
+        }
+        .list {
+            margin: 20px 80px;
+        }
+        ul {
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        ul ul {
+            font-size: 18px;
+        }
+        li {
+            padding: 5px;
+        }
+        p {
+            margin: 20px 80px;
+        }
+        </style>
+    </head>
+    <body>
+        <main>
+        <h1> Shopping List for Monday</h1>
+        <section class="list">
+        <ul>
+            <li>Milk</li>
+            <li>Bread
+                <ul>
+                    <li>White Bread</li>
+                    <li>Rye Bread</li>
+                    <li>Whole Wheat Bread</li>
+                </ul>
+            </li>
+            <li>Carrots</li>
+            <li>Yogurt</li>
+            <li>Pizza <em>with mushrooms</em></li>
+        </ul>
+    </section>
+        <p><em>Go to the</em> <a class="nodec" href="https://www.kroger.com/" target="_blank">Grocery Store.</a></p>
+    </main>
+    </body>
+</html>
